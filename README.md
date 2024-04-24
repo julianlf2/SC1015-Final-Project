@@ -1,6 +1,6 @@
 # SC1015 Mini-Project
 ## About
-For our mini project in the Introduction to Data Science and Artificial Intelligence module (SC1015), we performed analysis on Mitchell Gleason's Formula 1 [dataset](https://github.com/MitchellGleason/F1-Data-Analysis--Wet-Races) from GitHub, supplemented with race data from the most recent [Singapore 2023 Grand Prix](https://www.formula1.com/en/results.html/2023/team.html) as it was missing
+For our mini project in the Introduction to Data Science and Artificial Intelligence module (SC1015), we performed analysis on [Mitchell Gleason's Formula 1 dataset](https://github.com/MitchellGleason/F1-Data-Analysis--Wet-Races) from GitHub, supplemented with race data from the most recent [Singapore 2023 Grand Prix](https://www.formula1.com/en/results.html/2023/team.html) as it was missing
 
 ## Problem Definition
 - What should teams work towards to improve their standings?
