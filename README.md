@@ -1,24 +1,35 @@
 # SC1015 Mini-Project
-For our mini project in the Introduction to Data Science and Artificial Intelligence module (SC1015), we performed analysis on the IBM HR Analytics Employee Attrition and Performance [dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) from Kaggle. 
+For our mini project in the Introduction to Data Science and Artificial Intelligence module (SC1015), we performed analysis on Mitchell Gleason's Formula 1 [dataset](https://github.com/MitchellGleason/F1-Data-Analysis--Wet-Races) from GitHub, supplemented with race data from the most recent [Singapore 2023 Grand Prix](https://www.formula1.com/en/results.html/2023/team.html) as it was missing
 
 ### Problem Definition
-- What is the profile of employees who quit IBM?
-- Top reasons for an employee's resignation
-- What can IBM do to better retain its workers?
+- What should teams work towards to improve their standings?
+- How can we utilise machine learning to accurately predict the top 5 drivers given factors of a race?
 
-### Members (DSF3)
-1. Hung Kuo-Chen
-2. Jodi Tay Seow Xuan
-3. Yang Xiaoyue
+### Members (FCEA - Team 8)
+1. Isaac Leow
+2. Tan Jun Wei Adison
+3. Goh Jin Long Abdillah
 
 ### Files Included
-1. IBMAttrition.csv - dataset
-2. SC1015 Project Slides.pdf - presentation slides for our project
-3. SC1015 Mini Project.ipynb 
-    - Cleaning and preparation
-    - Basic visualization
-    - Exploratory data analysis
-    - Machine learning: Random Forest, Logistic Regression, Neural Network  
+1. Dataset
+    - laptimesgit.csv
+    - qualifyinggit.csv
+    - racesgit.csv
+    - sgppitsgitfinal.csv
+    - resultsgit.csv
+    - weatherdescriptiongit.csv
+2. SC1015 Mini-Project Slides.pdf - presentation slides used
+3. SC1015 Final Formula 1 Mini-Project
+    - Initial Data Insights
+    - Data Preparation & Cleaning
+    - Exploratory Data Analysis
+    - Machine Learning
+
+### Models Used  
+1. Classification Tree
+2. Support Vector Machine (SVM)
+3. Logistic Regression
+4. Random Forest
 
 ### Notebook Details
 #### Cleaning and Preparation
