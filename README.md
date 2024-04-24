@@ -9,7 +9,7 @@ For our mini project in the Introduction to Data Science and Artificial Intellig
 
 ## Contributors
 FCEA - Team 8
-1. Isaac Leow - Contribution
+1. Isaac Leow - 
 2. Tan Jun Wei Adison - Contribution
 3. Goh Jin Long Abdillah - Contribution
 
@@ -93,3 +93,7 @@ Our slides highlight the intricacies of crucial information and relationships fo
 4. https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
 5. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 6. https://scikit-learn.org/stable/modules/model_evaluation.html
+7. https://en.as.com/racing/how-much-revenue-was-generated-by-f1-during-the-2023-season-n/
+8. https://www.todayonline.com/big-read/big-read-singapore-goes-all-f1-will-it-pay-desperate-tourism-sector-1809766
+9. https://www.forbes.com/sites/bradadgate/2024/03/11/heres-why-formula-1-racing-is-growing-in-popularity-with-women/?sh=253f316d137c
+10. https://www.the-race.com/formula-1/f1-2024-teams-entry-fees/
