@@ -32,6 +32,8 @@ For our mini project in the Introduction to Data Science and Artificial Intellig
    a. Extracting the Singapore Grand Prix Data from the datasets
 
    b. Check for suitable values to use as prediction variables
+
+   
    
 ### Data Preparation & Cleaning
    a. Remove insignificant columns: 'EmployeeCount', 'Over18', 'StandardHours', and 'EmployeeNumber'
@@ -41,12 +43,14 @@ For our mini project in the Introduction to Data Science and Artificial Intellig
    c. Changed response variable to 0/1, to indicate Top5/NotTop5 and enhanced readability of variable names
 
 
+
 ### Exploratory Data Analysis
    a. Uni-variate Statistics to get a sense of the values we are working with
 
    b. Bi-variate relationships between predictors and response variables
 
    c. Multi-variate Statistics to see prediction variables and their correlation to each other
+
 
 
 ### Machine Learning
