@@ -1,4 +1,5 @@
 # SC1015 Mini-Project
+## About
 For our mini project in the Introduction to Data Science and Artificial Intelligence module (SC1015), we performed analysis on Mitchell Gleason's Formula 1 [dataset](https://github.com/MitchellGleason/F1-Data-Analysis--Wet-Races) from GitHub, supplemented with race data from the most recent [Singapore 2023 Grand Prix](https://www.formula1.com/en/results.html/2023/team.html) as it was missing
 
 ## Problem Definition
@@ -6,10 +7,11 @@ For our mini project in the Introduction to Data Science and Artificial Intellig
 - How can we utilise machine learning to accurately predict the top 5 drivers given factors of a race?
 - Narrowed down to the Singapore Grand Prix given that variables such as race duration, laptimes and track mileage differ from country to country. 
 
-## Members (FCEA - Team 8)
-1. Isaac Leow
-2. Tan Jun Wei Adison
-3. Goh Jin Long Abdillah
+## Contributors
+FCEA - Team 8
+1. Isaac Leow - Contribution
+2. Tan Jun Wei Adison - Contribution
+3. Goh Jin Long Abdillah - Contribution
 
 ## Files Included
 1. Datasets
