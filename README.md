@@ -9,9 +9,9 @@ For our mini project in the Introduction to Data Science and Artificial Intellig
 
 ## Contributors
 FCEA - Team 8
-1. Isaac Leow - SVM, Logistic Regression, GridSearhCV (for SVM, RandomForest, Logistic Regression), EDA, Scipt Preparation
-2. Tan Jun Wei Adison - Data Preparation and Cleaning, EDA, Decision Tree, Random Forest, Scipt Preparation
-3. Goh Jin Long Abdillah - EDA, Slides Preparation, Video, Scipt Preparation
+1. Isaac Leow - SVM, Logistic Regression, GridSearhCV (for SVM, RandomForest, Logistic Regression), EDA, Script Preparation
+2. Tan Jun Wei Adison - Data Preparation and Cleaning, EDA, Decision Tree, Random Forest, Script Preparation
+3. Goh Jin Long Abdillah - EDA, Slides Preparation, Video, Script Preparation
 
 ## Files Included
 1. Datasets
