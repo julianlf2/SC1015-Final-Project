@@ -69,26 +69,20 @@ FCEA - Team 8
 
 ## Conclusion
 
-*Machine Learning Comparisons*
-- Random Forest suggests that numeric variables with relatively high correlation with attrition are useful in predicting attrition
-- Logistic Regression is not recommended as a technique as most categorical variables are irrelevant in determining attrition
-- Neural Network is highly useful in effectively predicting attrition
+- We are able to determine whether a driver would end up in the Top 5 with relatively high accuracy in the context of Singapore using Machine Learning Models
+- However, some variables are hard to obtain when spectating a race in real time for fans who wish to predict the top 5, but the grid / starting positions of the drivers can be quite a suitable and reliable starting indicator of whether the driver would end up in the top 5. From there, as the race moves forward, we are able to input the rest of the variables to better increase our prediction accuracy.
+- SVM and Logistic Regression could not perform as well as Random Forest, even with the hyperparameters tuned
+- Actions for F1 teams: Teams and drivers need to commit fully during qualifiers, hire better drivers and have more practice to improve their consistency, have more investment into R&D and increase amount of pit stop practices and employ better strategies
 
-*Data Driven Insights*
-- Common profile of employees who quit: low salary, lives far away from office, low chance of career progression/lack of opportunities
-- Actions for IBM: increase salary incentives, enhance effective employee assessments, change up roles in senior management
 
-### What we have learnt from this project?
-- Using pandas.get_dummies to convert catrgorical variables into indicator variables
-- Logistic Regression model 
-- Justify the suitability of a model based on readings from classification report
-- Neural Network model
+## What we have learnt from this project?
+- Logistic Regression, SVM and Random Forest machine learning models
+- Hypertuning our parameters using GridSearchCV
 
 ### References
-1. https://analyticsindiamag.com/guide-to-hyperparameters-tuning-using-gridsearchcv-and-randomizedsearchcv/
-2. https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/
-3. https://stackoverflow.com/questions/55229301/one-hot-encoding-multiple-columns-in-sklearn-and-naming-columns
-4. https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python
-5. https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
-6. https://github.com/PacktPublishing/Deep-learning-with-PyTorch-video
-7. https://androidkt.com/load-pandas-dataframe-using-dataset-and-dataloader-in-pytorch/
+1. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html
+2. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+3. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+4. https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+5. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+6. https://scikit-learn.org/stable/modules/model_evaluation.html
