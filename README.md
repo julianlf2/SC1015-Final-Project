@@ -28,6 +28,8 @@ FCEA - Team 8
     - Exploratory Data Analysis
     - Machine Learning
 
+## Slides Details
+Our slides highlight the intricacies of crucial information and relationships found during our exploration in the Python Notebook. It considers the most raw form of our data and how we transformed it into an eventual prediction model through data cleaning, exploratory data analysis and exploration of machine learning models to draw logical conclusions and predictions.
 
 ## Notebook Details
 ### Initial Data Insights
@@ -38,20 +40,20 @@ FCEA - Team 8
    
    
 ### Data Preparation & Cleaning
-   a. Remove insignificant columns: 'EmployeeCount', 'Over18', 'StandardHours', and 'EmployeeNumber'
+   a. Utilised pre-requisite Python coding knowledge together with large datasets to perform feature engineering and better exploration of given problems. 
 
-   b. Merge all datasets together and dropped NULL values
+   b. Merge all datasets together and study contextual information before dropping information such as NULL values and points earned.
 
-   c. Changed response variable to 0/1, to indicate Top5/NotTop5 and enhanced readability of variable names
+   c. Changed response variable to 0/1, to indicate Top5/NotTop5 and improve readability of dataframe through Ids such as years and drivers.
 
 
 
 ### Exploratory Data Analysis
-   a. Uni-variate Statistics to get a sense of the values we are working with
+   a. Use of a variety of plots for Uni-variate Statistics to better visualise and understand the individual variables and their complexities we are working with.
 
-   b. Bi-variate relationships between predictors and response variables
+   b. Explore Bi-variate relationships between predictors and response variables to infer what other crucial information can be extracted for machine learning usage.
 
-   c. Multi-variate Statistics to see prediction variables and their correlation to each other
+   c. Perform Multi-variate Statistics Visualization to study the interplay between predictors and how this effects the response variable.
 
 
 
@@ -69,15 +71,20 @@ FCEA - Team 8
 
 ## Conclusion
 
-- We are able to determine whether a driver would end up in the Top 5 with relatively high accuracy in the context of Singapore using Machine Learning Models
-- However, some variables are hard to obtain when spectating a race in real time for fans who wish to predict the top 5, but the grid / starting positions of the drivers can be quite a suitable and reliable starting indicator of whether the driver would end up in the top 5. From there, as the race moves forward, we are able to input the rest of the variables to better increase our prediction accuracy.
-- SVM and Logistic Regression could not perform as well as Random Forest, even with the hyperparameters tuned
-- Actions for F1 teams: Teams and drivers need to commit fully during qualifiers, hire better drivers and have more practice to improve their consistency, have more investment into R&D and increase amount of pit stop practices and employ better strategies
+- We are able to determine whether a driver would end up in the Top 5 with relatively high accuracy in the context of Singapore using Machine Learning Models.
+- Teams can utilise the same approach in different countries. While the accuracy of the models might differ, overall, the model should still prove effective in predicting the Top 5.
+- However, some variables are challenging to obtain when spectating a race in real time for fans and teams who wish to predict the top 5. The variable starting grid positions of the drivers can however be quite a suitable and reliable indicator, available before races, helping us predict whether the driver would end up in the top 5. From there, as the race moves forward, we are able to input the real time race variables to better increase our prediction accuracy. Teams can utilise this information to help them make better decisions mid-race, improving their chances of top positions.
+- SVM and Logistic Regression could not perform as well as Random Forest, even with the hyperparameters tuned. Ultimately, Random Forest together with GridSearchCV procured the best prediction model.
+- Actions for F1 teams: Teams and drivers need to commit fully during qualifying to secure good starting grid spots. Employ better drivers and have practice more to improve their consistency. Direct more investments into R&D to build a better car. Increase frequency of pit stop practices and employ better pitting strategies such as an undercut.
 
 
 ## What we have learnt from this project?
-- Logistic Regression, SVM and Random Forest machine learning models
-- Hypertuning our parameters using GridSearchCV
+- Support Vector Machines and SVM kernels
+- Logistic Regression and their folds
+- Random Forest Search
+- Hypertuning machine learning model parameters using GridSearchCV
+- Precision, Recall, F1 score
+- Upsampling, Random sampling and One-Hot Encoding. (One-Hot Encoding was removed from the notebook as we realised that it caused the classification accuracy of the machine learning models to drop)
 
 ### References
 1. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html
