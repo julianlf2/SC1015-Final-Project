@@ -4,6 +4,7 @@ For our mini project in the Introduction to Data Science and Artificial Intellig
 ## Problem Definition
 - What should teams work towards to improve their standings?
 - How can we utilise machine learning to accurately predict the top 5 drivers given factors of a race?
+- Narrowed down to the Singapore Grand Prix given that variables such as race duration, laptimes and track mileage differ from country to country. 
 
 ## Members (FCEA - Team 8)
 1. Isaac Leow
@@ -25,67 +26,42 @@ For our mini project in the Introduction to Data Science and Artificial Intellig
     - Exploratory Data Analysis
     - Machine Learning
 
-## Models Used  
-1. Classification Tree
-2. Support Vector Machine (SVM)
-3. Logistic Regression
-4. Random Forest
 
-### Notebook Details
-#### Cleaning and Preparation
-   a. Check for missing values within the dataset
+## Notebook Details
+### Initial Data Insights
+   a. Extracting the Singapore Grand Prix Data from the datasets
 
-   b. Remove insignificant columns: 'EmployeeCount', 'Over18', 'StandardHours', and 'EmployeeNumber'
+   b. Check for suitable values to use as prediction variables
+   
+### Data Preparation & Cleaning
+   a. Remove insignificant columns: 'EmployeeCount', 'Over18', 'StandardHours', and 'EmployeeNumber'
 
+   b. Merge all datasets together and dropped NULL values
 
-#### Basic Visualization
-   a. Used box plots, histograms, and violin plots in visualizing numeric variables
-
-   b. Used the GroupBy function to create a categorical bar plot of attrition against each categorical variable
+   c. Changed response variable to 0/1, to indicate Top5/NotTop5 and enhanced readability of variable names
 
 
-#### Exploratory Data Analysis
-   a. Plot a correlation matrix to identify multicollinearity and any existing patterns within numeric variables
+### Exploratory Data Analysis
+   a. Uni-variate Statistics to get a sense of the values we are working with
 
-   b. Explored bi-variate relationships with a scatter plot
+   b. Bi-variate relationships between predictors and response variables
 
-
-#### Machine Learning
-*1. Random Forest*
-
-    a. Extract numeric variables that have high correlation with attrition as predictors and build a model using Random Forest Classifier
-       - A accuracy of 84.5% is achieved
-
-    b. Do hyperparemeter tuning using Random Search and plot one of the trees from Random Forest
-       - The accuracy is improved to 84.7%
-
-*2. Logistic Regression*
-
-    a. Get the 6 categorical variables and convert them into indicator variables using pandas.get_dummies
-    
-    b. Build a Logistic Regression model based on the predictors and print out the rank of importance of predictors using Recursive Feature Elimination (RFE)
-       - The accuracy on test set is 0.84
-       - 'OverTime' and 'Gender' contribute more to the predicton of attrition than the rest of the predictors
-    
-    c. Examine the classification report and analyze the model based on 'precision' and 'recall'
-       - Get the conclusion that the model is not effective even with high accuracy
-       - The highly imbalanced distribution of employees when categorizing by attrition is the major factor for the high accuracy
-    
-    d. Get the confusion matrix to back up our conclusion
-
-*3. Neural Network*
-
-    a. Import PyTorch library and select major numeric attributes
-        - The attributes include 'MonthlyIncome', 'DistanceFromHome' and 'YearsInCurrentRole'
-
-    b. Build a multilayer perceptron model for multi-label classification
-    
-    c. Train the model with CrossEntropyLoss as loss function and SGD as optimizer.
-        - The loss of the model reduced significantly after training through 3 epochs
-        - The accuracy on test cases is 85.7%
+   c. Multi-variate Statistics to see prediction variables and their correlation to each other
 
 
-### Conclusion
+### Machine Learning
+*1. Classification Tree*
+
+*2. Support Vector Machine (SVM)*
+
+*3. Logistic Regression*
+
+*4. Random Forest*
+
+*5. Hyperparameter Tuning of SVM, Logistic Regression and Random Forest using GridSearchCV*
+
+
+## Conclusion
 
 *Machine Learning Comparisons*
 - Random Forest suggests that numeric variables with relatively high correlation with attrition are useful in predicting attrition
